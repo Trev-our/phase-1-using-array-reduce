@@ -1,3 +1,4 @@
-const batteryBatches = [4, 5, 3, 4, 4, 6, 5];
+console.log(batteryBatches);
+const batteryBatches = [3, 4, 5, 6, 3, 2, 5, 1, 2]; // This adds up to 31
+const totalBatteries = batteryBatches.reduce((total, batch) => total + batch, 0);
 
-// Code your solution here
